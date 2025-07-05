@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documentacoes",
+  "info": {
+    "singularName": "documentacao",
+    "pluralName": "documentacoes",
+    "displayName": "Documentação"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Titulo",
+      "required": true
+    },
+    "Conteudo": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
