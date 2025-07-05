@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.17.0",
+    "@strapi/plugin-documentation": "^5.17.0",
     "@strapi/plugin-users-permissions": "5.17.0",
     "@strapi/strapi": "5.17.0",
     "minimatch": "^10.0.3",
